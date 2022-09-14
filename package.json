@@ -1,10 +1,25 @@
 {
   "name": "@thi3rry/wordle",
   "version": "0.0.1",
-  "description": "Wordle game, Experiment with TDD/jest/vuejs\"",
+  "description": "Wordle game, Experiment with TDD/vitest/vuejs\"",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom"
+  },
+  "dependencies": {
+    "pinia": "^2.0.21",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/test-utils": "^2.0.2",
+    "jsdom": "^20.0.0",
+    "vite": "^3.0.9",
+    "vitest": "^0.23.0"
   },
   "repository": {
     "type": "git",
