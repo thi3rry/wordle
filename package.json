@@ -1,0 +1,24 @@
+{
+  "name": "@thi3rry/wordle",
+  "version": "0.0.1",
+  "description": "Wordle game, Experiment with TDD/jest/vuejs\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thi3rry/wordle.git"
+  },
+  "keywords": [
+    "wordle",
+    "tdd",
+    "vue"
+  ],
+  "author": "Thierry POINOT <thierry@shoot-shoot.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thi3rry/wordle/issues"
+  },
+  "homepage": "https://github.com/thi3rry/wordle#readme"
+}
